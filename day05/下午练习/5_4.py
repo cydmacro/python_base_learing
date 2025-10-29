@@ -7,12 +7,12 @@
 
 # class Dog(Animal):  # 派生类/子类
 #     def speak(self):  # 方法重写
-#         print("老王不是狗,但是叫 wang")
+#         print("小明不是狗,但是叫 wang")
 #         return "汪汪！"
 
 # class Cat(Animal):
 #     def speak(self):
-#         print("老王不是猫，但是叫 miao")
+#         print("小明不是猫，但是叫 miao")
 #         return "喵～"
     
     

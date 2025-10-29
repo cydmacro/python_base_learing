@@ -1,11 +1,11 @@
-# teachers = ["老帆", "冰冰", "Anna"]
+# teachers = ["python", "java", "c++"]
 # for t in teachers:
-#     print(f"老王 love 学习python {t}!")
+#     print(f"小明 love 学习 {t}!")
 
 # 输出：
-# 老王 love 学习python 老帆!
-# 老王 love 学习python 冰冰!
-# 老王 love 学习python Anna!
+# 小明 love 学习 python!
+# 小明 love 学习 java!
+# 小明 love 学习 c++!
 
 
 # word = "学习python"
