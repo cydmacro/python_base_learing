@@ -1,0 +1,8 @@
+包括前端、后端、大数据、人工智能、测试多方向学科
+是 Python 包管理工具，该工具提供了对 Python 包的查找、下载、安装、卸载的功能
+类似Maven, Npm
+Python 2.7.9 + 或 Python 3.4+ 以上版本都自带 pip 工具
+管理超过40万个PyPI软件包
+在 VS Code中，有一个免费扩展(Extension）：PIP Manager ，可以很方便查看和调整相关的软件依赖模块
+
+追加的内容
