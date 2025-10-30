@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the **test_code** repository for the **Python基础教学 (Python Fundamentals Teaching)** 10-day AI trainer bootcamp curriculum. It contains 70+ executable Python files organized by day (day01-day10), with classroom demos, practice exercises, assessment answers, and three major projects.
+This is the **test_code** repository for the **Python基础教学 (Python Fundamentals Teaching)** 10-day AI trainer bootcamp curriculum. It contains 70+ executable Python files organized by day (days.day01-days.day10), with classroom demos, practice exercises, assessment answers, and three major projects.
 
 ### Repository Context
 - **Location**: `/Users/cyd/dash/python备课/python基础教学/test_code/`
@@ -18,7 +18,7 @@ This is the **test_code** repository for the **Python基础教学 (Python Fundam
 ### Directory Organization (By Day)
 ```
 test_code/
-├── day01-day10/          # 10 days of organized code (课堂演示, 下午练习, 测评答案)
+├── days.day01-days.day10/          # 10 days of organized code (课堂演示, 下午练习, 测评答案)
 ├── docs/                 # Documentation and teaching materials
 ├── 项目案例/              # 3 major projects with v1/v2/v3 versions
 ├── backup/               # Original file backups
@@ -26,7 +26,7 @@ test_code/
 └── data/                 # Sample data files for exercises
 ```
 
-### Daily Code Structure (day01-day10)
+### Daily Code Structure (days.day01-days.day10)
 Each day contains:
 - **课堂演示/** - Classroom demonstration code (3-4 files)
 - **下午练习/** - Afternoon practice exercises (2-3 files)
@@ -44,11 +44,11 @@ Each day contains:
 ### Running Code Examples
 ```bash
 # Run a specific day's classroom demo
-cd day01/课堂演示/
+cd days.day01/课堂演示/
 python 1_1_hello_world.py
 
 # Run afternoon practice exercises
-cd day02/下午练习/
+cd days.day02/下午练习/
 python 2_4.py
 
 # Run project examples
@@ -73,17 +73,17 @@ python cot.py
 # Install dependencies for advanced examples
 pip install -r requirements.txt
 
-# Note: Basic examples (day01-day06) use only standard library
-# Advanced examples (day07-day10) require pandas, numpy, etc.
+# Note: Basic examples (days.day01-days.day06) use only standard library
+# Advanced examples (days.day07-days.day10) require pandas, numpy, etc.
 ```
 
 ### Navigating Documentation
 ```bash
 # View daily lesson plans
-cat day01/Day1.md
+cat days.day01/Day1课件.md
 
 # View daily README for quick reference
-cat day01/README.md
+cat days.day01/README.md
 
 # View comprehensive documentation
 cat docs/README.md
@@ -94,55 +94,55 @@ cat docs/测评/Day1_测评.md
 
 ## 10-Day Curriculum Overview
 
-### Day 1-2: Python Basics (day01/)
+### Day 1-2: Python Basics (days.day01/)
 - **Topics**: Variables, data types, input/output, basic operators
 - **Key Files**: `1_1_hello_world.py`, `1_2_calculator.py`, `1_3_bmi_calculator.py`
 - **Dependencies**: None (standard library only)
 - **AI Context**: Variable naming for annotation tool field design
 
-### Day 2: Core Data Types (day02/)
+### Day 2: Core Data Types (days.day02/)
 - **Topics**: Strings, lists, dictionaries, tuples, sets
 - **Key Files**: `2_1.py` through `2_6.py`
 - **Dependencies**: None (standard library only)
 - **AI Context**: Dictionary structures match Label Studio JSON exports
 
-### Day 3: Logic and Loops (day03/)
+### Day 3: Logic and Loops (days.day03/)
 - **Topics**: if/elif/else, while/for loops, list comprehensions
 - **Key Files**: `3_1.py` through `3_6.py`
 - **Dependencies**: None (standard library only)
 - **AI Context**: Multi-condition logic for annotation quality checks
 
-### Day 4: Advanced Loops (day04/)
+### Day 4: Advanced Loops (days.day04/)
 - **Topics**: enumerate(), zip(), iterators, generators
 - **Key Files**: `4_1.py` through `4_4.py`
 - **Dependencies**: None (standard library only)
 - **AI Context**: Batch file processing for annotation datasets
 
-### Day 5: Functions and Exceptions (day05/)
+### Day 5: Functions and Exceptions (days.day05/)
 - **Topics**: Functions, lambda, map/filter/reduce, exception handling
 - **Key Files**: `5_1.py` through `5_3.py`
 - **Dependencies**: None (standard library only)
 - **AI Context**: Lambda expressions for quick annotation rule definitions
 
-### Day 6: File Processing (day06/)
+### Day 6: File Processing (days.day06/)
 - **Topics**: File I/O, JSON processing, os module, regex
 - **Key Files**: `6_1.py`, `6_2_json_processing.py`, `6_3.py`
 - **Dependencies**: None (standard library only)
 - **AI Context**: JSON files correspond to Label Studio export format
 
-### Day 7: Pandas Data Processing (day07/)
+### Day 7: Pandas Data Processing (days.day07/)
 - **Topics**: DataFrame/Series, data cleaning, filtering
 - **Key Files**: `7_1_pandas_basic.py`, `7_2_pandas_clean.py`, `7_3_pandas_filter.py`
 - **Dependencies**: pandas, numpy
 - **AI Context**: DataFrame for structured annotation data storage
 
-### Day 8: AI Annotation Tools (day08/)
+### Day 8: AI Annotation Tools (days.day08/)
 - **Topics**: Label Studio data parsing, quality checks, batch file renaming
 - **Key Files**: `8_1_label_export.py`, `8_2_quality_check.py`, `8_3_batch_rename.py`
 - **Dependencies**: pandas, json
 - **AI Context**: Label Studio is mainstream open-source annotation tool
 
-### Day 9-10: Comprehensive Projects (day09/, day10/)
+### Day 9-10: Comprehensive Projects (days.day09/, days.day10/)
 - **Topics**: Three major projects with progressive complexity
 - **Key Projects**: Text cleaning, image classification, CSV processing
 - **Dependencies**: pandas, numpy, opencv-python (optional)

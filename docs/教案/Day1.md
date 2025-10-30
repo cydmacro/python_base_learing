@@ -21,8 +21,10 @@
       ```
 
       * 对比：相同功能在Java需要5行代码，C++需要7行代码
+      * hello world java代码  https://www.runoob.com/java/env-compile.html
+      * pyton 中 https://www.runoob.com/try/runcode.php?filename=HelloWorld&type=python
 
-    * **动态类型** ：变量类型自动判断（无需声明类型）
+    *  **动态类型** ：变量类型自动判断（无需声明类型）
 
       ```
       age = 25           # 自动识别为整数
